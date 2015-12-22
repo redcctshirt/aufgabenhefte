@@ -46,14 +46,13 @@ zel, Funktion)
 Welche Vorteile hat eine Umleitung ?
 * Fülle folgende Tabelle aus. (Kommandoausführung)
 
-    Eingabe                | Beschreibung | Beispiel
-    -------------------------------------------------
-    Kommando1; Kommando2   |              |
-    Kommando1 && Kommando2 |              |
-    Kommando1 || Kommando2 |              |
-    Kommando &             |              |
-    Kommando1 & Kommando2  |              |
-    (Kommando1 ; Kommando2)|              |
+    Eingabe                | Beschreibung | Beispiel    
+    Kommando1; Kommando2   |              |    
+    Kommando1 && Kommando2 |              |    
+    Kommando1 || Kommando2 |              |    
+    Kommando &             |              |    
+    Kommando1 & Kommando2  |              |    
+    (Kommando1 ; Kommando2)|              |    
 
 * Definiere den Begriff Kommandosubstitution. Wie leitest du eine Kom-
 mandosubstitution ein ?
