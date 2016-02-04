@@ -32,18 +32,19 @@
 * Notiere die Bedeutung folgender Begriffe und was sie dir verraten. PID, PPID, UID, EUID, GID, EGID
 * Fülle folgende Tabelle mit möglichen Signalen aus. Probiere die Signale aus.
     
-     Nr|Name|Beschreibung
-     1 |    |
-       | INT| 
-     3 |    |
-     9 |    |
-       |    | Beenden durch Software (Standard)
-       |STOP|
-       |TSTP|
-       |CONT|
-       |WINCH|
-       |USR1|
-       |USR2|
+Nr | Name |Beschreibung
+---|------|------------
+1  |      |
+   | INT  | 
+3  |      |
+9  |      |
+   |      | Beenden durch Software (Standard)
+   | STOP |
+   | TSTP |
+   | CONT |
+   | WINCH|
+   | USR1 |
+   | USR2 |
  
 * Verwende ps und top mit allen möglichen Optionen. Welche Optionen werden genutzt um alle laufenden Prozesse anzuzeigen ? Erkläre wann du eher top nutzt und wann eher ps.
 * Erstelle eine Übersicht zum Prozessstatus. (Status, Bedeutung)
