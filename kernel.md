@@ -55,6 +55,7 @@ version                     |               |
 /proc/sys/dev/cdrom/        |               |
 autoeject                   |               |
 
+
 * Erkläre wozu das Kommando sysctl bereit steht und wann man die Datei /etc/sysctl.conf modifiziert.
 * Erstelle eine Übersicht welche Schritte man gehen muss bis man einen neuen angepassten Kernel nutzen kann. Erkläre was die einzelnen Kommandos bewirken.
 * Liste auf welche Konfigurationsoptionen die Bootmanager lilo und grub an den Kernel weitergeben können. Was bedeuten diese Optionen ?
