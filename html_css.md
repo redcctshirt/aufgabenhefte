@@ -7,9 +7,15 @@
 
 ## Hilfsmittel
 
-* [selfhtml](https://wiki.selfhtml.org/wiki/Startseite)
+* [code.makery - HTML & CSS Tutorial](http://code.makery.ch/library/html-css/de/) (CC by)
+* [code.makery - Mehr HTML & CSS](http://code.makery.ch/library/more-html-css/de/) (CC by)
+* [opentechschool - Get started with HTML & CSS](https://opentechschool.github.io/html-css-beginners/de/index.html) (CC by-sa)
+* [Lerne X in Y Minuten - CSS](https://learnxinyminutes.com/docs/de-de/css-de/) (CC by-sa)
+* [wikibooks - Websiteentwicklung: CSS](https://de.wikibooks.org/wiki/Websiteentwicklung:_CSS) (CC by-sa)
+* [selfhtml - CSS](https://wiki.selfhtml.org/wiki/CSS) (CC by-sa)
+* [wikibooks - Websiteentwicklung: XHTML](https://de.wikibooks.org/wiki/Websiteentwicklung:_XHTML) (CC by-sa)
+* [selfhtml - HTML](https://wiki.selfhtml.org/wiki/HTML) (CC by-sa)
 * [planethtml.de](http://www.planethtml.de/html/)
-
 
 ## Voraussetzungen
 
