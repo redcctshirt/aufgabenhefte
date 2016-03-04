@@ -59,49 +59,49 @@ Zeichen | Zeichenkette im Text der HTML-Datei
 * Erkläre was Meta-Angaben sind. Welche Meta-Angaben gibt es ?
 * Beschreibe wie man die Hintergrundfarbe, Textfarbe und Linksfarben ändern kann. Erstelle eine Webseite mit einem Texteditor und probiere es aus.
 * Notiere die Einstellungen wie man ein Hintergrundbild hinzufügen und die Seitenränder ändern kann.
-* Erläutere zu welchen Zwecken die Tags <H1> bis <H6> eingesetzt werden.
+* Erläutere zu welchen Zwecken die Tags &lt;H1&gt; bis &lt;H6&gt; eingesetzt werden.
 * Informiere dich wie man einen Textabsatz und einen Zeilenumbruch einfügen kann. Schreibe jeweils ein Beispiel.
 * Erkläre welche Tags zum Auflisten genutzt werden. Schreibe jeweils ein Beispiel.
-* Schau dir die Tags <blockquote>, <address> und <pre> genauer an. Wann werden sie verwendet ?
+* Schau dir die Tags &lt;blockquote&gt;, &lt;address&gt; und &lt;pre&gt; genauer an. Wann werden sie verwendet ?
 * Fülle folgende Tabelle aus. (logische Auszeichnungen im Text)
 
-Tag       | Funktion
-----------|---------
-<em>      |
-<strong>  |
-<code>    |
-<samp>    |
-<kbd>     |
-<var>     |
-<cite>    |
-<dfn>     |
-<acronym> |
-<abbr>    |
-<q>       |
-<ins>     |
-<del>     |
-<bdo>     |
+Tag             | Funktion
+----------------|---------
+&lt;em&gt;      |
+&lt;strong&gt;  |
+&lt;code&gt;    |
+&lt;samp&gt;    |
+&lt;kbd&gt;     |
+&lt;var&gt;     |
+&lt;cite&gt;    |
+&lt;dfn&gt;     |
+&lt;acronym&gt; |
+&lt;abbr&gt;    |
+&lt;q&gt;       |
+&lt;ins&gt;     |
+&lt;del&gt;     |
+&lt;bdo&gt;     |
 
 
 * Fülle folgende Tabelle aus. (physische Auszeichnungen im Text)
 
-Tag       | Funktion
-----------|---------
-<b>       |
-<i>       |
-<tt>      |
-<u>       |
-<strike>  |
-<s>       |
-<big>     |
-<small>   |
-<sup>     |
-<sub>     |
+Tag             | Funktion
+----------------|---------
+&lt;b&gt;       |
+&lt;i&gt;       |
+&lt;tt&gt;      |
+&lt;u&gt;       |
+&lt;strike&gt;  |
+&lt;s&gt;       |
+&lt;big&gt;     |
+&lt;small&gt;   |
+&lt;sup&gt;     |
+&lt;sub&gt;     |
 
 
 * Schreibe eine Webseite in der alle Tags der beiden Tabellen zum Einsatz kommen. (vorherige beiden Aufgaben)
 * Mit welchen Tags kannst du die Schriftart, Schriftgröße und Schriftfarbe beeinflußen ? Schreibe drei Beispiele mit unterschiedlichen Attributen.
-* Erläutere die Bedeutung der Tags <div>, <span>, <center>, <hr> und <marquee>.
+* Erläutere die Bedeutung der Tags &lt;div&gt;, &lt;span&gt;, &lt;center&gt;, &lt;hr&gt; und &lt;marquee&gt;.
 * Mache dich mit der Gestaltung einer Tabelle auf Webseiten vertraut. Welche Tags sind notwendig um eine Tabelle zu erstellen ?
 * Erkläre den Begriff Link. Liste mögliche Linkarten auf und schreibe jeweils ein Beispiel.
 * Mit welchen Tag werden Grafiken in eine Webseite eingebunden ? Notiere alle Attribute die du verwenden kannst. Welche Grafikformate werden für Webseiten genutzt ?
@@ -150,13 +150,13 @@ e) aussagekräftige Verweistexte einsetzen
 * Wie gibt man den Titel einer Webseite an ?
 * Was sind Meta-Angaben in einer HTML-Datei ?
 * Wie kannst du die Hintergrundfarbe einer Webseite beeinflußen ?
-* Was bewirken die Tags <h1> bis <h6> ?
+* Was bewirken die Tags &lt;h1&gt; bis &lt;h6&gt; ?
 * Wie erzwingst du einen Zeilenumbruch im Text deiner Webseite ?
 * Mit welchen Tags fügst du eine Liste in deine Homepage ein ?
 * Wie erstellst du eine Kopfzeile in einer Tabelle ?
-* Du merkst das dein Link zu einer anderen Seite nicht funktioniert. Woran liegt das ? <a href“index2.html“> Seite 2 </a>
+* Du merkst das dein Link zu einer anderen Seite nicht funktioniert. Woran liegt das ? &lt;a href“index2.html“&gt; Seite 2 &lt;/a&gt;
 * Wie bindest du eine Grafik in deine Webseite mit ein ?
 * Was ist CSS ?
 * Wie kannst du Stylesheets in HTML verwenden ?
-* Wie formatierst du das Tag <H1> mit der Farbe rot bezüglich der ganzen Webseite ?
+* Wie formatierst du das Tag &lt;H1&gt; mit der Farbe rot bezüglich der ganzen Webseite ?
 
