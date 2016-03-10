@@ -169,6 +169,7 @@ Operation | Bedeutung | Beispiel
 
 * Definiere den Datentyp Dateien. Mache dich mit den Dateioperationen vertraut. Erstelle eine Liste mit allen Modi die beim Dateiöffnen verwendet werden können.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
+
     ```
     > > > JPdatei = open(’JP’, ’w’)
     > > > JPdatei.write(’Hallo in der Welt der Python-Programmierung’)
