@@ -77,14 +77,14 @@ Operation | Bedeutung | Beispiel
 
 
 * Erläutere wann folgende Formen von String-Konstanten zum Einsatz kommen.
-
+    ```
     “Junior-Pingo’s“
     ’Junior-Pingo“s’
     “““Junior-Pingos“““
     “Junior-Pingo“ “-“ “Pingos“
     r’Junior\n-Pingos’
     u’Junior-Pingos’
-
+    ```
 
 * Nenne die Escape-Codes die man in Strings einbauen kann und was sie bewirken.
 * Erstelle eine Übersicht mit den Operationen die bei Strings angewandt werden können. (Operation, Beschreibung, Beispiel)
