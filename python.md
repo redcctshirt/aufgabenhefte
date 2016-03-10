@@ -62,7 +62,7 @@ Operation | Bedeutung | Beispiel
 
 
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
+    ```
     > > > print 2 - 3 + 6
     > > > print 12 * 2 / 4
     > > > print 3 % 12
@@ -74,7 +74,7 @@ Operation | Bedeutung | Beispiel
     > > > print 2 ** 3
     > > > print int(2.33) * float(2)
     > > > print (2 >> 1) + (3 - 1) * int(4.45)
-
+    ```
 
 * Erläutere wann folgende Formen von String-Konstanten zum Einsatz kommen.
     ```
@@ -86,10 +86,11 @@ Operation | Bedeutung | Beispiel
     u’Junior-Pingos’
     ```
 
+
 * Nenne die Escape-Codes die man in Strings einbauen kann und was sie bewirken.
 * Erstelle eine Übersicht mit den Operationen die bei Strings angewandt werden können. (Operation, Beschreibung, Beispiel)
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
+    ```
     > > > print “u“ in “Junior-Pingos“
     > > > print “Junior-“ + “Pingos“
     > > > print 3 * “Junior\n“
@@ -98,16 +99,18 @@ Operation | Bedeutung | Beispiel
     > > > print JP[-5]
     > > > print “B“+ JP[8:12]
     > > > print len(JP)
+    ```
 
 
 * Schreibe auf was es mit dem folgenden Befehl auf sich hat. Liste weitere Codes zur String-Formatierung auf. Welche Bedeutung haben sie ?
-
+    ```
     > > > print “%d kl%xine %s“ % (10, 14, ’Junior-Pingos’)
+    ```
 
 
 * Erläutere was Listen sind und warum sie eingesetzt werden. Wie wird eine Variable mit dem Datentyp Liste definiert ? Schreibe ein Beispiel zur leeren Liste, eine Liste mit 3 unterschiedlichen Werten und eine verschachtelte Liste mit jeweils 2 Werten.
 * Mache dich mit den Operationen für Listen vertraut. Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
+    ```
     > > > JPlist = [10, “kleine“, “Junior-Pingos“]
     > > > print JPlist[1]
     > > > print JPlist[0:]
@@ -125,13 +128,14 @@ Operation | Bedeutung | Beispiel
     > > > JPlist.remove(“grosse“)
     > > > JPlist.sort()
     > > > print range(1,4)
+    ```
 
 
 * Erkläre warum bei der Sortierung ’Junior-Pingos’ vor ’grosse’ gelandet ist. J kommt im Alphabet doch eigentlich nach g.
 * Definiere den Datentyp Dictionary. Nenne die Unterschiede zwischen Listen und Dictionaries. Erkläre wann es vorteilhaft ist Listen einzusetzen und wann es besser ist Dictionaries in Betracht zu ziehen.
 * Wie wird eine Variable mit dem Datentyp Dictionary definiert ? Schreibe ein Beispiel zur leeren Dictionary, eine Dictionary mit 2 Elementen und eine verschachtelte Dictionary mit jeweils 2 Elementen.
 * Mache dich mit den Operationen für Dictionaries vertraut. Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
+    ```
     > > > JPdict = {junior’: 10, ’instructor’: 5}
     > > > print JPdict[’junior’]
     > > > JPdict.has_key(’junior’)
@@ -145,12 +149,13 @@ Operation | Bedeutung | Beispiel
     > > > len(JPdict)
     > > > JPdict[’alle’] = 15
     > > > JPdict.clear()
+    ```
 
 
 * Definiere den Datentyp Tupel. Erkläre warum es noch zusätzlich den Datentyp Tupel gibt obwohl es schon Listen gibt.
 * Wie wird eine Variable mit dem Datentyp Tupel definiert ? Schreibe ein Beispiel zur leeren Tupel, eine Tupel mit 3 unterschiedlichen Werten und eine verschachtelte Tupel mit jeweils 2 Werten.
 * Mache dich mit den Operationen für Tupels vertraut. Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
+    ```
     > > > JPtupel = (0, 5, 10, 15)
     > > > print JPtupel[1:3]
     > > > len(JPtupel)
@@ -159,11 +164,12 @@ Operation | Bedeutung | Beispiel
     > > > print 5 in JPtupel
     > > > max(JPtupel)
     > > > min(JPtupel)
+    ```
 
 
 * Definiere den Datentyp Dateien. Mache dich mit den Dateioperationen vertraut. Erstelle eine Liste mit allen Modi die beim Dateiöffnen verwendet werden können.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
+    ```
     > > > JPdatei = open(’JP’, ’w’)
     > > > JPdatei.write(’Hallo in der Welt der Python-Programmierung’)
     > > > JPdatei.close()
@@ -177,6 +183,7 @@ Operation | Bedeutung | Beispiel
     > > > JPdatei.mode
     > > > JPdatei.name
     > > > JPdatei.close()
+    ```
 
 
 ## Mögliche Testfragen
