@@ -86,7 +86,6 @@ Operation | Bedeutung | Beispiel
     u’Junior-Pingos’
     ```
 
-
 * Nenne die Escape-Codes die man in Strings einbauen kann und was sie bewirken.
 * Erstelle eine Übersicht mit den Operationen die bei Strings angewandt werden können. (Operation, Beschreibung, Beispiel)
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
@@ -101,12 +100,10 @@ Operation | Bedeutung | Beispiel
     > > > print len(JP)
     ```
 
-
 * Schreibe auf was es mit dem folgenden Befehl auf sich hat. Liste weitere Codes zur String-Formatierung auf. Welche Bedeutung haben sie ?
     ```
     > > > print “%d kl%xine %s“ % (10, 14, ’Junior-Pingos’)
     ```
-
 
 * Erläutere was Listen sind und warum sie eingesetzt werden. Wie wird eine Variable mit dem Datentyp Liste definiert ? Schreibe ein Beispiel zur leeren Liste, eine Liste mit 3 unterschiedlichen Werten und eine verschachtelte Liste mit jeweils 2 Werten.
 * Mache dich mit den Operationen für Listen vertraut. Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
@@ -130,7 +127,6 @@ Operation | Bedeutung | Beispiel
     > > > print range(1,4)
     ```
 
-
 * Erkläre warum bei der Sortierung ’Junior-Pingos’ vor ’grosse’ gelandet ist. J kommt im Alphabet doch eigentlich nach g.
 * Definiere den Datentyp Dictionary. Nenne die Unterschiede zwischen Listen und Dictionaries. Erkläre wann es vorteilhaft ist Listen einzusetzen und wann es besser ist Dictionaries in Betracht zu ziehen.
 * Wie wird eine Variable mit dem Datentyp Dictionary definiert ? Schreibe ein Beispiel zur leeren Dictionary, eine Dictionary mit 2 Elementen und eine verschachtelte Dictionary mit jeweils 2 Elementen.
@@ -151,7 +147,6 @@ Operation | Bedeutung | Beispiel
     > > > JPdict.clear()
     ```
 
-
 * Definiere den Datentyp Tupel. Erkläre warum es noch zusätzlich den Datentyp Tupel gibt obwohl es schon Listen gibt.
 * Wie wird eine Variable mit dem Datentyp Tupel definiert ? Schreibe ein Beispiel zur leeren Tupel, eine Tupel mit 3 unterschiedlichen Werten und eine verschachtelte Tupel mit jeweils 2 Werten.
 * Mache dich mit den Operationen für Tupels vertraut. Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
@@ -166,10 +161,8 @@ Operation | Bedeutung | Beispiel
     > > > min(JPtupel)
     ```
 
-
 * Definiere den Datentyp Dateien. Mache dich mit den Dateioperationen vertraut. Erstelle eine Liste mit allen Modi die beim Dateiöffnen verwendet werden können.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
     ```
     > > > JPdatei = open(’JP’, ’w’)
     > > > JPdatei.write(’Hallo in der Welt der Python-Programmierung’)
@@ -186,10 +179,8 @@ Operation | Bedeutung | Beispiel
     > > > JPdatei.close()
     ```
 
-
 * Mache dich mit der if-Anweisung vertraut. Wie können die Wahrheitstests aussehen und wann kommt die if-Anweisung zum Einsatz ?
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
     ```
     > > > Obst = {’Apfel’: 10, ’Birne’: 8, ’Pflaume’: 5}
     > > > if ’Apfel’ in Obst: print ’Es sind ’, Obst[’Apfel’], ’ Äpfel’
@@ -199,10 +190,8 @@ Operation | Bedeutung | Beispiel
     . . . else: print ’Es sind weniger als 10 Äpfel’
     ```
 
-
 * Mache dich mit den for- und while-Schleifen vertraut. Erkläre den Unterschied und nenne Situationen in denen sie eingesetzt werden.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
     ```
     > > > a=0
     > > > while a < 5:
@@ -211,7 +200,6 @@ Operation | Bedeutung | Beispiel
     . . .     print i*a
     . . .
     ```
-
 
 * Schreibe die Anweisung für eine unendliche Schleife. Kann man eine unendliche Schleife gebrauchen ? Wenn ja warum.
 * Erkläre wozu die Anweisungen break, continue und pass vorhanden sind.
@@ -239,7 +227,6 @@ abs, chr, cmp, float, hex, int, len, long, list, max, min, oct, ord, pow, range,
 * Schreibe in deinen Lieblingseditor ein Python-Skript. Lade das Modul string. Wandle alle Buchstaben der Zeichenkette ’Junior-Pingos’ in Großbuchstaben und in Kleinbuchstaben um. (lower(str), upper(str))
 * Mache dich mit den Anweisungen try, except, raise und finally vertraut. Beschreibe die Funktionen der Anweisungen.
 * Schreibe folgendes Skript in deinem Lieblingseditor. Probiere das Skript mit folgenden Eingabe-Werten aus und erläutere was passiert. (1,2,0)
-
     ```
     #!/usr/bin/python
     a = input(’Gib eine Zahl (0 bis 10) ein ! : ’)
@@ -247,17 +234,14 @@ abs, chr, cmp, float, hex, int, len, long, list, max, min, oct, ord, pow, range,
     except: print ’10 ist nicht durch 0 teilbar’
     ```
 
-
 * Erstelle eine Übersicht zu den Funktionen und Variablen vom Modul sys. Erkläre das Verhalten der Funktionen und schreibe jeweils ein Beispiel.
 * Schreibe folgendes Skript in deinem Lieblingseditor. Erläutere was in den einzelnen Zeilen passiert.
-
     ```
     #!/usr/bin/python
     import sys
     dict = {’-v’: ’Version 1.0’, ’-n’: ’10’}
     print dict[sys.argv[1]]
     ```
-
 
 * Schreibe ein Skript namens sysinfo.py in deinem Lieblingseditor. Folgende Optionen sollten Auskunft geben. Es soll möglich sein auch mehrere Optionen gleichzeitig anzugeben.    
 -c Anzeige des Python-Interpreter Copyright    
@@ -267,7 +251,6 @@ abs, chr, cmp, float, hex, int, len, long, list, max, min, oct, ord, pow, range,
 -v Python-Interpreter-Version    
 * Erstelle eine Übersicht zu den Funktionen und Variablen vom Modul string. Erkläre das Verhalten der Funktionen und schreibe jeweils ein Beispiel.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
     ```
     > > > import string
     > > > string.find(’10 kleine Junior-Pingos’,’Ju’)
@@ -276,11 +259,9 @@ abs, chr, cmp, float, hex, int, len, long, list, max, min, oct, ord, pow, range,
     > > > string.join([’10’,’20’,’ab’],’*’)
     ```
 
-
 * Schreibe ein Skript namens findstr.py in deinem Lieblingseditor. Die Option -f gibt eine Textdatei an und die Option -s gibt die gesuchte Zeichenkette an. Die Zeichenkette wird in der Datei gesucht, sobald sie gefunden wird wird die Zeilennummer und der Zeileninhalt ausgegeben. Die Zeichenkette in der Zeile wird markiert indem jeder Buchstabe in ein Großbuchstabe umgewandelt wird.
 * Erstelle eine Übersicht zu den Funktionen und Variablen der Module os und os.path. Erkläre das Verhalten der Funktionen und schreibe jeweils ein Beispiel.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
     ```
     > > > import os
     > > > os.system(’ls -l’)
@@ -289,11 +270,9 @@ abs, chr, cmp, float, hex, int, len, long, list, max, min, oct, ord, pow, range,
     > > > os.getuid()
     ```
 
-
 * Schreibe ein Skript namens ls.py in deinem Lieblingseditor. Mit ls.py soll der Inhalt des aktuellen Verzeichnisses angezeigt werden. Die Verzeichnisse werden mit einem d vor dem Verzeichnissnamen gekennzeichnet. Außerdem wird die Größe der Dateien angezeigt. Die Dateiausgabe erfolgt sortiert. Als erstes wird die größte Datei angezeigt und als letztes die kleinste Datei.
 * Erstelle eine Übersicht zu den Funktionen und Variablen vom Modul math. Erkläre das Verhalten der Funktionen und schreibe jeweils ein Beispiel.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgende Ausdrücke ein und erläutere was passiert.
-
     ```
     > > > import math
     > > > math.pi
@@ -302,11 +281,9 @@ abs, chr, cmp, float, hex, int, len, long, list, max, min, oct, ord, pow, range,
     > > > math.sin(1)
     ```
 
-
 * Um eine Lösung für eine Matheaufgabe zu finden sind manchmal viele Schritte nötig. Schreibe zwei Skripts mit Beispielen indem Matheaufgaben automatisiert werden so das man nur noch Eingaben machen muß und am Ende kommt die Lösung raus.
 * Erstelle eine Übersicht zu den Funktionen und Variablen vom Modul time. Erkläre das Verhalten der Funktionen und schreibe jeweils ein Beispiel.
 * Starte den interaktiven Interpreter indem du python eingibst. Gib folgene Ausdrücke ein und erläutere was passiert.
-
     ```
     > > > import time
     > > > time.clock()
@@ -314,7 +291,6 @@ abs, chr, cmp, float, hex, int, len, long, list, max, min, oct, ord, pow, range,
     > > > time.tzname
     > > > time.altzone
     ```
-
 
 * Schreibe ein Skript namens uhr.py in deinem Lieblingseditor. Es soll jeweils im Sekundentakt die Uhrzeit an ein und derselben Stelle angezeigt werden. Abgebrochen wird mit Strg+C.
 * Welche weiteren Module gibt es und in welchen Fällen werden sie eingesetzt ?
@@ -338,15 +314,12 @@ Solltest du die Möglichkeit haben (eigener Webserver, Webspace-Anbieter mit Pyt
   * Python ist einfach anzuwenden und kann man schnell lernen.
   * Python ist objektorientiert.
 * Was kommt beim folgendem Skript zur Ausgabe ?
-
     ```
     #!/usr/bin/python
     print “Hallo“ “Welt“
     ```
 
-
 * Was kommt als Ergebnis bei diesen Anweisungen raus ?
-
     ```
     #!/usr/bin/python
     a = (1,2,5,7)
@@ -354,83 +327,63 @@ Solltest du die Möglichkeit haben (eigener Webserver, Webspace-Anbieter mit Pyt
     print b + len(a) + a[-1]
     ```
 
-
 * Was für eine Datentyp hat die Variable a ?
-   
     ```
     a = {}
     ```
 
-
 * Was erscheint bei folgender Anweisung ?
-
     ```
     print 3 % 2
     ```
 
-
 * Du möchtest das der Escape-Code bei der Ausgabe nicht gewertet wird. Was machst du ?
-
     ```
     print ’Junior-Pingos\n 10’
     ```
 
-
 * Durch welche Buchstaben ersetzt du jeweils _ damit die Aussage stimmt `
-
     ```
     print ’Hexwert von %_ ist %_ ’ % (16,16)
     ```
 
-
 * Was kommt bei den folgenden Anweisungen raus ?
-    
     ```
     liste = [0,2,4,6]
     print liste.reverse()
     ```
 
-
 * Mit welcher Operation kannst du ein Objekt an das Ende einer Liste anfügen ?
 * Mit welcher Operation listest du alle Werte einer Dictionary auf ?
 * Was wird bei diesem Skript auf dem Bildschirm erscheinen ?
-
     ```
     dict = {’Junior’:10, ’Instructor’: 5}
     if dict.has_key(’junior’): print ’Ja’
     else: print ’Nein’
     ```
 
-
 * Was passiert bei diesen Anweisungen am Ende ?
-
     ```
     t = (1,2,3,4)
     t[4] = 5
     ```
 
-
 * Du möchtest den Inhalt der Datei index.html einlesen und ausgeben. Wie siehst die erste Anweisung bei dieser Aufgabe aus ?
 * Du möchtest die aktuelle Position in deiner geöffneten Datei wissen. Was machst du ?
 * Was kommt bei folgender Anweisung am Ende raus ?
-
     ```
     print int(float(4) + 0.5) >> 1
     ```
 
-
 * Mit welchem Schlüsselwort wird eine Funktion definiert ?
 * Du merkst das dein Programm immer eine NullDivision durchführt und dann abstürzt. Was kannst du dagegen machen ?
 * Was kommt bei folgendem Skript am Ende raus ?
-
     ```
     for i in range(0,8,2): a += i
     print a
     ```
 
-
 * Dein Freund hat folgendes Skript geschrieben und meint es funktioniert nicht. Er bittet dich um Hilfe. Was stimmt hier nicht ?
-
     ```
     import sys
     dict = {’-n’: 20,’-o’: ’result.txt’}
@@ -441,6 +394,5 @@ Solltest du die Möglichkeit haben (eigener Webserver, Webspace-Anbieter mit Pyt
 * Dein String sieht folgendermaßen aus: ’   JuNioR-PinGoS    ’. Dich stören die Leerzeichen an beiden Enden und du möchtest das alles in Kleinbuchstaben geschrieben wird. Was unternimmst du ?
 * Du möchtest in deinem Skript den Zugriffsmodus und den Eigentümer einer Datei ändern. Welches Modul importierst du und welche Funktionen nutzt du ?
 * Du schreibst gerade ein Skript das Log-Dateien erstellt. Du möchtest bei jedem Eintrag die aktuelle Zeit angeben. Was machst du ?
-
 
 
